@@ -103,3 +103,68 @@ Received Import Request.
   path: Assets/Scenes/Level 1.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Level 1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0dd20e6614e0de58b7441a5b6fefce9') in 0.025219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.103453 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f639124b1e9c7abcd946960b80d97ecd') in 0.001359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.034934 seconds.
+  path: Assets/Scenes/Level 3.unity
+  artifactKey: Guid(acee3f72f812af14a9a4ad01ded5cb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 3.unity using Guid(acee3f72f812af14a9a4ad01ded5cb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2bc71f0a72f75f731d28b931ab7bae') in 0.004369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.811195 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(acee3f72f812af14a9a4ad01ded5cb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(acee3f72f812af14a9a4ad01ded5cb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c8f4bb6e33962fde528a37706687dd') in 0.001384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.349362 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(acee3f72f812af14a9a4ad01ded5cb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(acee3f72f812af14a9a4ad01ded5cb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79fae2da2001018c0a2eb936caae6e5') in 0.001406 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Platform modules already initialized, skipping
+Shader 'Mirza Beig/Standard/Terrain Rain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Mirza Beig/Standard/Terrain Rain 2': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2718 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.0 MB.
+System memory in use after: 183.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3212.
+Total: 2.022600 ms (FindLiveObjects: 0.349800 ms CreateObjectMapping: 0.225100 ms MarkObjects: 1.402400 ms  DeleteObjects: 0.043900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.099259 seconds.
+  path: Assets/Scenes/Level 1
+  artifactKey: Guid(2e31780caa3caaa44a7dd1aa5395796d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1 using Guid(2e31780caa3caaa44a7dd1aa5395796d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08582049d2f6f221854e02e145e3aed') in 0.006439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026525 seconds.
+  path: Assets/Scenes/Level 1/LightingData.asset
+  artifactKey: Guid(bbc9cfc37464e074dbc450834a98666f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1/LightingData.asset using Guid(bbc9cfc37464e074dbc450834a98666f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0300ed94ea7fea4816857b422ec3e343') in 0.033720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Scenes/Level 1/ReflectionProbe-0.exr
+  artifactKey: Guid(054e6763a9ac9db438a1794ac9f56b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1/ReflectionProbe-0.exr using Guid(054e6763a9ac9db438a1794ac9f56b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a730ba2f13b3473ca1b0d6b5a31371') in 0.067177 seconds 

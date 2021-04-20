@@ -218,8 +218,11 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 45c8e89 (Test)
+=======
+>>>>>>> parent of 7d1bfd8 (Test)
   m_LocalPosition: {x: 0.4, y: 23.4, z: -0.41649953}
 =======
   m_LocalPosition: {x: 1.7, y: 9.2, z: -0.41649953}
@@ -228,6 +231,7 @@ Transform:
 =======
   m_LocalPosition: {x: 0.4, y: 9.2, z: -0.41649953}
 >>>>>>> parent of c025ec8 (Update Level 1.unity)
+<<<<<<< HEAD
 =======
   m_LocalPosition: {x: 1.7, y: 9.2, z: -0.41649953}
 >>>>>>> parent of 66f106a (Fix logs ignore...)
@@ -236,6 +240,8 @@ Transform:
 >>>>>>> parent of 66f106a (Fix logs ignore...)
 =======
 >>>>>>> parent of 45c8e89 (Test)
+=======
+>>>>>>> parent of 7d1bfd8 (Test)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
