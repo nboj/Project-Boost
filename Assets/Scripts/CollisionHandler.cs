@@ -13,11 +13,25 @@ public class CollisionHandler : MonoBehaviour {
     [SerializeField] ParticleSystem deathParticles;
     private new AudioSource audio;
     private bool isTransitioning = false;
+    private bool collisionDisabled = false;
     private void Start() {
         audio = GetComponent<AudioSource>();
     }
-    private void OnCollisionEnter(Collision collision) {
-        if (!isTransitioning) {
+
+    private void Update() {
+        RespondToDebugKeys();
+    }
+
+    private void RespondToDebugKeys() {
+        if (Input.GetKey(KeyCode.L) && !isTransitioning) {
+            StartCoroutine(LoadNextLevel());
+        } else if (Input.GetKey(KeyCode.C)) {
+            collisionDisabled = !collisionDisabled;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision) { 
+        if (!isTransitioning && !collisionDisabled) {
             switch (collision.gameObject.tag) {
                 case "Fuel":
                     Debug.Log("Got fuel..."); 
@@ -27,8 +41,8 @@ public class CollisionHandler : MonoBehaviour {
                 case "Finish":
                     StartCoroutine(LoadNextLevel());
                     break;
-                default:
-                    StartCoroutine(ReloadLevel());
+                default: 
+                    StartCoroutine(ReloadLevel()); 
                     break;
             }
         }
