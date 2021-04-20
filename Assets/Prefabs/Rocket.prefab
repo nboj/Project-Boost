@@ -291,8 +291,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad77c3ba51190a49b696964e320e4c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathDelay: 1
-  winDelay: 1
+  deathDelay: 1.5
+  winDelay: 1.5
   death: {fileID: 8300000, guid: ed625f2f92d1c2544a2eecab2b29f5d1, type: 3}
   win: {fileID: 8300000, guid: 32b271a318ca11644b49f0d8b667e4ec, type: 3}
   successParticles: {fileID: 3704897523714475330, guid: b690e932036d85b41853d83c61a98f1f, type: 3}
