@@ -216,6 +216,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0.4, y: 23.4, z: -0.41649953}
 =======
   m_LocalPosition: {x: 1.7, y: 9.2, z: -0.41649953}
@@ -223,6 +224,9 @@ Transform:
 =======
   m_LocalPosition: {x: 0.4, y: 9.2, z: -0.41649953}
 >>>>>>> parent of c025ec8 (Update Level 1.unity)
+=======
+  m_LocalPosition: {x: 1.7, y: 9.2, z: -0.41649953}
+>>>>>>> parent of 66f106a (Fix logs ignore...)
 =======
   m_LocalPosition: {x: 1.7, y: 9.2, z: -0.41649953}
 >>>>>>> parent of 66f106a (Fix logs ignore...)
