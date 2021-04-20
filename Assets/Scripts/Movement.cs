@@ -37,15 +37,23 @@ public class Movement : MonoBehaviour {
 
     private void ProcessThrust() {
         if (Input.GetKey(KeyCode.Space)) {
-            rb.AddRelativeForce(Vector3.up * thrustAmount * Time.deltaTime);
-            if (!audio.isPlaying) {  
-                audio.PlayOneShot(mainEngine);
-            }
-            if (!ps.isPlaying)
-                ps.Play();
+            AddThrust();
         } else {
-            audio.Stop(); 
-            ps.Stop();
+            StopThrust();
         }
+    }
+
+    private void AddThrust() {
+        rb.AddRelativeForce(Vector3.up * thrustAmount * Time.deltaTime);
+        if (!audio.isPlaying) {  
+            audio.PlayOneShot(mainEngine);
+        }
+        if (!ps.isPlaying)
+            ps.Play();
+    }
+
+    private void StopThrust() { 
+        audio.Stop(); 
+        ps.Stop();
     }
 }
