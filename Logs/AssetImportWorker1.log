@@ -1,0 +1,180 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.2f1 (e5d502d80fbb) revision 15062274'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'en' Physical Memory: 16185 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Downloads/Unity repos/Project Boost
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57510
+Successfully changed project path to: D:/Downloads/Unity repos/Project Boost
+D:/Downloads/Unity repos/Project Boost
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 163.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.2f1 (e5d502d80fbb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Downloads/Unity repos/Project Boost/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   27.21.14.6192
+Shader 'Mirza Beig/Standard/Terrain Rain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Mirza Beig/Standard/Terrain Rain 2': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001657 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 176.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.743 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Mirza Beig/Standard/Terrain Rain 2': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Mirza Beig/Standard/Terrain Rain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.6 MB.
+System memory in use after: 192.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3310.
+Total: 1.762700 ms (FindLiveObjects: 0.241600 ms CreateObjectMapping: 0.150800 ms MarkObjects: 1.315400 ms  DeleteObjects: 0.054000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Launchpad Finish Variant.prefab
+  artifactKey: Guid(86beeb8b8851d6143a180b14a50f6a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Launchpad Finish Variant.prefab using Guid(86beeb8b8851d6143a180b14a50f6a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bc25e5417665de035cb0fc1a4f54f5') in 0.085892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(8a4400a049d227a4888c0629cc6b7e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(8a4400a049d227a4888c0629cc6b7e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b87151583527e1af32c712740621a2') in 0.005099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Prefabs/Launchpad.prefab
+  artifactKey: Guid(75402c1b6260c114f8d7e1c214f61286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Launchpad.prefab using Guid(75402c1b6260c114f8d7e1c214f61286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35beb1725fcba89fc9cda265f4eb62a9') in 0.023172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Prefabs/Ground.prefab
+  artifactKey: Guid(cfffcb7943d48be428f2d86034c9f9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ground.prefab using Guid(cfffcb7943d48be428f2d86034c9f9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ecb0beb847419558e95557ce8bca2a') in 0.009732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Prefabs/Rocket.prefab
+  artifactKey: Guid(bbce35f9f9007ec42a63700b36012e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket.prefab using Guid(bbce35f9f9007ec42a63700b36012e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae23e3460dfb873c15b790890c754dc') in 0.057109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(96b08682018a05b4fa55636cc2e50f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(96b08682018a05b4fa55636cc2e50f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb23b9a3bf357538cd8388e3f8c9ae0') in 0.013226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Prefabs/Success Particles.prefab
+  artifactKey: Guid(b690e932036d85b41853d83c61a98f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Success Particles.prefab using Guid(b690e932036d85b41853d83c61a98f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c771635ca341d6a4c0aa0e078407dcb') in 0.006813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Prefabs/Explosion Effects.prefab
+  artifactKey: Guid(84a8525309efa2f41b4589d2113822ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Explosion Effects.prefab using Guid(84a8525309efa2f41b4589d2113822ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e7ae83e248bdfb56e505fbc245fa83') in 0.007799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Prefabs/Obsticle.prefab
+  artifactKey: Guid(345110c1bf3d6174b9f6cb361b61d4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obsticle.prefab using Guid(345110c1bf3d6174b9f6cb361b61d4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e1b73698a63e65686a737e7db8666a') in 0.008170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Prefabs/Finish Light.prefab
+  artifactKey: Guid(3134a88690d603942b957c1175c19e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Finish Light.prefab using Guid(3134a88690d603942b957c1175c19e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad9f320d185e867b007ab3578a78511') in 0.005391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Prefabs/Finish Light 1.prefab
+  artifactKey: Guid(9ee1a0c94f0b5fd49aa7fd62dd584b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Finish Light 1.prefab using Guid(9ee1a0c94f0b5fd49aa7fd62dd584b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7a96b9b76bd6f5c1f5fc4cbbf436e8') in 0.005717 seconds 
+========================================================================
+Received Prepare
+Shader 'Mirza Beig/Standard/Terrain Rain 2': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Mirza Beig/Standard/Terrain Rain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Refreshing native plugins compatible for Editor in 2.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.0 MB.
+System memory in use after: 138.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3318.
+Total: 1.772000 ms (FindLiveObjects: 0.193500 ms CreateObjectMapping: 0.124100 ms MarkObjects: 1.445900 ms  DeleteObjects: 0.008100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.720557 seconds.
+  path: Assets/Prefabs/Rocket.prefab
+  artifactKey: Guid(bbce35f9f9007ec42a63700b36012e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket.prefab using Guid(bbce35f9f9007ec42a63700b36012e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087ad94b341ce5d5afc1dd85d6cb8860') in 0.025233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.369383 seconds.
+  path: Assets/Prefabs/Rocket.prefab
+  artifactKey: Guid(bbce35f9f9007ec42a63700b36012e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket.prefab using Guid(bbce35f9f9007ec42a63700b36012e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f476b8eb8b7aeae4e272b8af27501af') in 0.035137 seconds 
+========================================================================
+Received Prepare
+Shader 'Mirza Beig/Standard/Terrain Rain 2': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Mirza Beig/Standard/Terrain Rain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Refreshing native plugins compatible for Editor in 2.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.0 MB.
+System memory in use after: 138.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3318.
+Total: 2.562500 ms (FindLiveObjects: 0.544300 ms CreateObjectMapping: 0.260600 ms MarkObjects: 1.747200 ms  DeleteObjects: 0.009700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
