@@ -32,7 +32,7 @@ public class Movement : MonoBehaviour {
         rb.freezeRotation = true;
         transform.Rotate(rotation * rotationThrust * Time.deltaTime);
         rb.freezeRotation = false;
-        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY;
+        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezePositionZ;
     }
 
     private void ProcessThrust() {
